@@ -507,5 +507,225 @@
         </div>
     </div>
 </section>
+<!-- News Section -->
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4" data-aos="fade-up">
+        <div class="text-center mb-16">
+            <span class="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-4">
+                Latest News
+            </span>
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                Stay Updated with Our 
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+                    Latest News
+                </span>
+            </h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                Discover the latest developments in robotics, Industry 5.0 innovations, and updates from our sustainable learning platform.
+            </p>
+        </div>
+        
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mb-12">
+            <!-- News Article 1 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <div class="relative overflow-hidden">
+                    <img src="assets/images/news-1.jpg" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="Industry 5.0 Revolution">
+                    <div class="absolute top-4 left-4">
+                        <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                            Industry 5.0
+                        </span>
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center text-sm text-gray-500 mb-3">
+                        <i class="fas fa-calendar-alt mr-2"></i>
+                        <span>June 5, 2025</span>
+                        <span class="mx-2">•</span>
+                        <i class="fas fa-user mr-2"></i>
+                        <span>Admin</span>
+                    </div>
+                    <h5 class="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-300">
+                        <a href="news-detail.php?id=1">The Future of Industry 5.0: Human-Robot Collaboration</a>
+                    </h5>
+                    <p class="text-gray-600 mb-4 line-clamp-3">
+                        Explore how Industry 5.0 is revolutionizing manufacturing by combining human creativity with robotic precision, creating a sustainable and efficient future...
+                    </p>
+                    <a href="news-detail.php?id=1" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
+                        Read More
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- News Article 2 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <div class="relative overflow-hidden">
+                    <img src="assets/images/news-2.jpg" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="Sustainable Robotics">
+                    <div class="absolute top-4 left-4">
+                        <span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                            Sustainability
+                        </span>
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center text-sm text-gray-500 mb-3">
+                        <i class="fas fa-calendar-alt mr-2"></i>
+                        <span>June 3, 2025</span>
+                        <span class="mx-2">•</span>
+                        <i class="fas fa-user mr-2"></i>
+                        <span>Research Team</span>
+                    </div>
+                    <h5 class="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-300">
+                        <a href="news-detail.php?id=2">Breakthrough in Recycled Materials for Robot Manufacturing</a>
+                    </h5>
+                    <p class="text-gray-600 mb-4 line-clamp-3">
+                        Our latest research shows a 95% efficiency rate in using recycled materials for robot components, paving the way for sustainable robotics education...
+                    </p>
+                    <a href="news-detail.php?id=2" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
+                        Read More
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- News Article 3 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <div class="relative overflow-hidden">
+                    <img src="assets/images/news-3.jpg" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="AI Education">
+                    <div class="absolute top-4 left-4">
+                        <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                            Education
+                        </span>
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center text-sm text-gray-500 mb-3">
+                        <i class="fas fa-calendar-alt mr-2"></i>
+                        <span>May 30, 2025</span>
+                        <span class="mx-2">•</span>
+                        <i class="fas fa-user mr-2"></i>
+                        <span>Education Team</span>
+                    </div>
+                    <h5 class="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-300">
+                        <a href="news-detail.php?id=3">New AI-Powered Learning Platform Launches Successfully</a>
+                    </h5>
+                    <p class="text-gray-600 mb-4 line-clamp-3">
+                        Our revolutionary AI-powered robotics learning platform has successfully trained over 500 students, with 98% satisfaction rate and improved learning outcomes...
+                    </p>
+                    <a href="news-detail.php?id=3" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
+                        Read More
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- News Article 4 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <div class="relative overflow-hidden">
+                    <img src="assets/images/news-4.jpg" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="Robot Competition">
+                    <div class="absolute top-4 left-4">
+                        <span class="bg-orange-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                            Competition
+                        </span>
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center text-sm text-gray-500 mb-3">
+                        <i class="fas fa-calendar-alt mr-2"></i>
+                        <span>May 28, 2025</span>
+                        <span class="mx-2">•</span>
+                        <i class="fas fa-user mr-2"></i>
+                        <span>Event Team</span>
+                    </div>
+                    <h5 class="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-300">
+                        <a href="news-detail.php?id=4">Students Win National Robotics Competition with Eco-Friendly Design</a>
+                    </h5>
+                    <p class="text-gray-600 mb-4 line-clamp-3">
+                        Our students secured first place in the National Robotics Championship using 100% recycled materials, showcasing the power of sustainable innovation...
+                    </p>
+                    <a href="news-detail.php?id=4" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
+                        Read More
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- News Article 5 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <div class="relative overflow-hidden">
+                    <img src="assets/images/news-5.jpg" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="Partnership News">
+                    <div class="absolute top-4 left-4">
+                        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                            Partnership
+                        </span>
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center text-sm text-gray-500 mb-3">
+                        <i class="fas fa-calendar-alt mr-2"></i>
+                        <span>May 25, 2025</span>
+                        <span class="mx-2">•</span>
+                        <i class="fas fa-user mr-2"></i>
+                        <span>Partnership Team</span>
+                    </div>
+                    <h5 class="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-300">
+                        <a href="news-detail.php?id=5">Strategic Partnership with Leading Tech Universities Announced</a>
+                    </h5>
+                    <p class="text-gray-600 mb-4 line-clamp-3">
+                        We're excited to announce partnerships with top technology universities to expand our robotics curriculum and provide students with world-class education...
+                    </p>
+                    <a href="news-detail.php?id=5" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
+                        Read More
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- News Article 6 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <div class="relative overflow-hidden">
+                    <img src="assets/images/news-6.jpg" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="Workshop News">
+                    <div class="absolute top-4 left-4">
+                        <span class="bg-teal-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                            Workshop
+                        </span>
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center text-sm text-gray-500 mb-3">
+                        <i class="fas fa-calendar-alt mr-2"></i>
+                        <span>May 22, 2025</span>
+                        <span class="mx-2">•</span>
+                        <i class="fas fa-user mr-2"></i>
+                        <span>Workshop Team</span>
+                    </div>
+                    <h5 class="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-300">
+                        <a href="news-detail.php?id=6">Free Robotics Workshop Series for Beginners Starts Next Month</a>
+                    </h5>
+                    <p class="text-gray-600 mb-4 line-clamp-3">
+                        Join our comprehensive robotics workshop series designed for beginners. Learn the fundamentals of robotics using sustainable materials and cutting-edge technology...
+                    </p>
+                    <a href="news-detail.php?id=6" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
+                        Read More
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center">
+            <a href="news.php" class="inline-flex items-center justify-center px-8 py-4 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
+                View All News
+                <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </div>
+</section>
 
 @endsection
