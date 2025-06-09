@@ -5,7 +5,7 @@
             <!-- Logo -->
             <div class="flex-shrink-0">
                 <a href="{{ url('/') }}" class="flex items-center space-x-2">
-                    <img src="images/logo.png" alt="Rosus Logo" class="h-12 w-auto">
+                    <img src="images/Tajuk (2).png" alt="Rosus Logo" class="h-12 w-auto">
                 </a>
             </div>
 
@@ -28,6 +28,9 @@
                 </a>
                 <a href="{{ url('/contact') }}" class="nav-link {{ request()->is('contact') ? 'active' : '' }}">
                     Contact
+                </a>
+                <a href="{{ url('/blog') }}" class="nav-link {{ request()->is('blog') ? 'active' : '' }}">
+                    Berita
                 </a>
             </div>
 
