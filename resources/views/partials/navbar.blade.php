@@ -14,10 +14,10 @@
                 <a href="{{ route('home') }}" class="nav-link text-gray-300 hover:text-white transition-colors duration-300 {{ request()->routeIs('home') ? 'font-bold text-white' : '' }}">
                     Home
                 </a>
-                <a href="#about" class="nav-link text-gray-300 hover:text-white transition-colors duration-300">
+                <a href="{{ route('home') }}#about" class="nav-link text-gray-300 hover:text-white transition-colors duration-300">
                     About
                 </a>
-                <a href="#services" class="nav-link text-gray-300 hover:text-white transition-colors duration-300">
+                <a href="{{ route('home') }}#services" class="nav-link text-gray-300 hover:text-white transition-colors duration-300">
                     Services
                 </a>
                 <a href="{{ route('projects.index') }}" class="nav-link text-gray-300 hover:text-white transition-colors duration-300 {{ request()->routeIs('projects.*') ? 'font-bold text-white' : '' }}">
@@ -26,7 +26,7 @@
                 <a href="{{ route('shop.index') }}" class="nav-link text-gray-300 hover:text-white transition-colors duration-300 {{ request()->routeIs('shop.*') ? 'font-bold text-white' : '' }}">
                     Store
                 </a>
-                <a href="#contact" class="nav-link text-gray-300 hover:text-white transition-colors duration-300">
+                <a href="{{ route('home') }}#contact" class="nav-link text-gray-300 hover:text-white transition-colors duration-300">
                     Contact
                 </a>   
                 
@@ -109,11 +109,11 @@
     <!-- Mobile Navigation Menu -->
     <div id="mobile-menu" class="hidden lg:hidden bg-gradient-to-br from-gray-900 via-blue-900 to-indigo-900 px-4 py-6 space-y-4 text-center text-white">
         <a href="{{ route('home') }}" class="block hover:text-blue-400 {{ request()->routeIs('home') ? 'font-bold text-blue-400' : '' }}">Home</a>
-        <a href="#about" class="block hover:text-blue-400">About</a>
-        <a href="#services" class="block hover:text-blue-400">Services</a>
+        <a href="{{ route('home') }}#about" class="block hover:text-blue-400">About</a>
+        <a href="{{ route('home') }}#services" class="block hover:text-blue-400">Services</a>
         <a href="{{ route('projects.index') }}" class="block hover:text-blue-400 {{ request()->routeIs('projects.*') ? 'font-bold text-blue-400' : '' }}">Projects</a>
         <a href="{{ route('shop.index') }}" class="block hover:text-blue-400 {{ request()->routeIs('shop.*') ? 'font-bold text-blue-400' : '' }}">Store</a>
-        <a href="#contact" class="block hover:text-blue-400">Contact</a>
+        <a href="{{ route('home') }}#contact" class="block hover:text-blue-400">Contact</a>
         
         @auth('customer')
             <!-- Mobile User Menu -->

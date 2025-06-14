@@ -217,378 +217,453 @@
 
 <!-- Services Section -->
 <section id="services" class="py-20 bg-gray-50 relative overflow-hidden">
-    <div class="container mx-auto px-4" data-aos="fade-right">
-        
+    <div class="container mx-auto px-4" data-aos="fade-right">   
         <div class="grid lg:grid-cols-2 gap-16 items-center relative z-10">
             <!-- Left Content -->
             <div class="space-y-8" data-aos="fade-right">
                 <div class="space-y-4">
                     <span class="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">
-                        Services we provide
+                        What We Offer
                     </span>
                     
                     <h2 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-                        Our Purpose is To Deliver Excellence in 
+                        Transforming Ideas Into 
                         <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-                            Service and Execution
+                            Intelligent Solutions
                         </span>
                     </h2>
                     
                     <p class="text-lg text-gray-600 leading-relaxed">
-                        Repellendus autem ruibusdam et aut officiis debitis aut re necessitatibus saepe eveniet ut et voluptates repudianda sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus.
+                        We combine cutting-edge technology with deep industry expertise to deliver solutions that drive real business value. From automation to analytics, we help organizations unlock their potential through intelligent innovation.
                     </p>
                     
                     <a href="./service.html" class="group inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                        Read More
+                        Explore All Services
                         <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
                     </a>
                 </div>
             </div>
             
             <!-- Right Content - Service Cards -->
-<div class="space-y-6">
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
-    
-    <!-- Card 1: Robotic Automation -->
-    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full flex flex-col justify-between">
-      <div>
-        <figure class="w-16 h-16 mb-4 bg-gradient-to-r from-blue-100 to-blue-200 rounded-xl flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 4H7a2 2 0 01-2-2V6a2 2 0 012-2h4l2 2h6a2 2 0 012 2v12a2 2 0 01-2 2z" />
-          </svg>
-        </figure>
-        <h4 class="text-xl font-bold text-gray-900 mb-2">Robotic Automation</h4>
-        <p class="text-gray-600 mb-4">Autem vel eum iure reprehea rui in ea volutae velit...</p>
-      </div>
-      <a href="./service.html" class="text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">Read More →</a>
-    </div>
+            <div class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+                    
+                    <!-- Card 1: Robotic Automation -->
+                    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full flex flex-col justify-between cursor-pointer group">
+                        <div>
+                            <figure class="w-16 h-16 mb-4 bg-gradient-to-r from-blue-100 to-blue-200 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                                </svg>
+                            </figure>
+                            <h4 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">Robotic Process Automation</h4>
+                            <p class="text-gray-600 leading-relaxed">Streamline repetitive tasks and boost productivity with intelligent automation solutions that adapt to your workflow and scale with your business needs.</p>
+                        </div>
+                    </div>
 
-    <!-- Card 2: Machine Learning -->
-    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full flex flex-col justify-between">
-      <div>
-        <figure class="w-16 h-16 mb-4 bg-gradient-to-r from-purple-100 to-purple-200 rounded-xl flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 4H7a2 2 0 01-2-2V6a2 2 0 012-2h4l2 2h6a2 2 0 012 2v12a2 2 0 01-2 2z" />
-          </svg>
-        </figure>
-        <h4 class="text-xl font-bold text-gray-900 mb-2">Machine Learning</h4>
-        <p class="text-gray-600 mb-4">Butem vel eum iure reprehea rui in ea volutae velit...</p>
-      </div>
-      <a href="./service.html" class="text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">Read More →</a>
-    </div>
+                    <!-- Card 2: Machine Learning -->
+                    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full flex flex-col justify-between cursor-pointer group">
+                        <div>
+                            <figure class="w-16 h-16 mb-4 bg-gradient-to-r from-purple-100 to-purple-200 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                </svg>
+                            </figure>
+                            <h4 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition-colors duration-300">Machine Learning Solutions</h4>
+                            <p class="text-gray-600 leading-relaxed">Unlock the power of your data with custom ML models that learn, adapt, and provide actionable insights to drive smarter business decisions.</p>
+                        </div>
+                    </div>
 
-    <!-- Card 3: Education & Science -->
-    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full flex flex-col justify-between">
-      <div>
-        <figure class="w-16 h-16 mb-4 bg-gradient-to-r from-green-100 to-green-200 rounded-xl flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 4H7a2 2 0 01-2-2V6a2 2 0 012-2h4l2 2h6a2 2 0 012 2v12a2 2 0 01-2 2z" />
-          </svg>
-        </figure>
-        <h4 class="text-xl font-bold text-gray-900 mb-2">Education & Science</h4>
-        <p class="text-gray-600 mb-4">Eutem vel eum iure reprehea rui in ea volutae velit...</p>
-      </div>
-      <a href="./service.html" class="text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">Read More →</a>
-    </div>
+                    <!-- Card 3: Education & Science -->
+                    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full flex flex-col justify-between cursor-pointer group">
+                        <div>
+                            <figure class="w-16 h-16 mb-4 bg-gradient-to-r from-green-100 to-green-200 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                                </svg>
+                            </figure>
+                            <h4 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">Educational Technology</h4>
+                            <p class="text-gray-600 leading-relaxed">Transform learning experiences with innovative educational platforms and scientific computing solutions that make complex concepts accessible and engaging.</p>
+                        </div>
+                    </div>
 
-    <!-- Card 4: Predictive Analysis -->
-    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full flex flex-col justify-between">
-      <div>
-        <figure class="w-16 h-16 mb-4 bg-gradient-to-r from-orange-100 to-orange-200 rounded-xl flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 4H7a2 2 0 01-2-2V6a2 2 0 012-2h4l2 2h6a2 2 0 012 2v12a2 2 0 01-2 2z" />
-          </svg>
-        </figure>
-        <h4 class="text-xl font-bold text-gray-900 mb-2">Predictive Analysis</h4>
-        <p class="text-gray-600 mb-4">Rutem vel eum iure reprehea rui in ea volutae velit...</p>
-      </div>
-      <a href="./service.html" class="text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">Read More →</a>
-    </div>
-  </div>
-</div>
+                    <!-- Card 4: Predictive Analysis -->
+                    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full flex flex-col justify-between cursor-pointer group">
+                        <div>
+                            <figure class="w-16 h-16 mb-4 bg-gradient-to-r from-orange-100 to-orange-200 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                </svg>
+                            </figure>
+                            <h4 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors duration-300">Predictive Analytics</h4>
+                            <p class="text-gray-600 leading-relaxed">Anticipate trends and make proactive decisions with advanced analytics that turn historical data into future opportunities and competitive advantages.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
 </section>
 
 <!-- Projects Section -->
-<section id="projects" class="py-20 bg-white">
-    <div class="container mx-auto px-4" data-aos="fade-right">
-        <div class="text-center mb-16">
-            <span class="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-4">
-                Our Projects
-            </span>
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+<section id="projects" class="py-24 bg-white relative overflow-hidden">
+    <div class="absolute inset-0 gradient-overlay"></div>
+    <div class="container mx-auto px-4 relative z-10" data-aos="fade-right">
+        <div class="text-center mb-20">
+            <div class="inline-block">
+                <span class="inline-block px-6 py-3 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 rounded-full text-sm font-bold mb-6 floating-animation">
+                    <i class="fas fa-rocket mr-2"></i>
+                    Our Projects
+                </span>
+            </div>
+            <h2 class="text-5xl md:text-6xl font-black text-gray-900 mb-6 leading-tight">
                 Innovative 
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 pulse-animation">
                     Projects
                 </span>
             </h2>
-            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                Explore some of the innovative projects we have worked on.
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                Explore some of the innovative projects we have worked on, showcasing cutting-edge technology and creative solutions.
             </p>
         </div>
         
-        @if($projects && $projects->count() > 0)
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mb-12">
-            @foreach($projects->take(3) as $project)
-            <!-- Project {{ $loop->iteration }} -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div class="relative overflow-hidden">
-                    <img src="{{ $project->thumbnail ? asset('storage/' . $project->thumbnail) : asset('assets/images/banner-image.png') }}" 
-                         class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" 
-                         alt="{{ $project->title }}">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <div class="p-6">
-                    <h5 class="text-xl font-bold text-gray-900 mb-2">{{ $project->title }}</h5>
-                    <p class="text-gray-600 mb-4">{{ Str::limit($project->description, 100) }}</p>
-                    <a href="{{ route('projects.show', $project->slug) }}" class="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-300">
-                        Read More
-                    </a>
-                </div>
+        <!-- Projects Swiper -->
+        <div class="swiper projects-swiper mb-16">
+            <div class="swiper-wrapper mb-2 rounded-3xl">
+                <!-- Dynamic Project Cards -->
+                @if($projects && $projects->count() > 0)
+                    @foreach($projects as $project)
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-3xl shadow-lg overflow-hidden card-hover group">
+                            <div class="relative overflow-hidden">
+                                <img src="{{ $project->thumbnail ? asset('storage/' . $project->thumbnail) : asset('assets/images/banner-image.png') }}" 
+                                     class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110" 
+                                     alt="{{ $project->title }}">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                            </div>
+                            <div class="p-8">
+                                <h5 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">{{ $project->title }}</h5>
+                                <p class="text-gray-600 mb-6 line-clamp-3 leading-relaxed">{!! Str::limit($project->description, 150) !!}</p>
+                                <a href="{{ route('projects.show', $project->slug) }}" class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                                    <span>Read More</span>
+                                    <i class="fas fa-arrow-right ml-2 transition-transform duration-300 group-hover:translate-x-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+                @else
+                    <div class="swiper-slide">
+                        <div class="text-center py-20 bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl">
+                            <div class="text-gray-400 mb-6 floating-animation">
+                                <i class="fas fa-project-diagram text-8xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-600 mb-4">No Projects Available</h3>
+                            <p class="text-gray-500 text-lg">Projects will appear here once they are added by the admin.</p>
+                        </div>
+                    </div>
+                @endif
             </div>
-            @endforeach
+            <div class="swiper-pagination mt-12"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
-        @else
-        <div class="text-center py-12">
-            <div class="text-gray-400 mb-4">
-                <i class="fas fa-project-diagram text-6xl"></i>
-            </div>
-            <h3 class="text-xl font-semibold text-gray-600 mb-2">No Projects Available</h3>
-            <p class="text-gray-500">Projects will appear here once they are added by the admin.</p>
-        </div>
-        @endif
         
         <div class="text-center">
-            <a href="{{ route('projects.index') }}" class="inline-flex items-center justify-center px-8 py-4 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
+            <a href="{{ route('projects.index') }}" class=" bg-white inline-flex items-center justify-center px-12 py-5 border-3 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-bold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-lg">
+                <i class="fas fa-eye mr-3"></i>
                 View All Projects
-                <i class="fas fa-arrow-right ml-2"></i>
+                <i class="fas fa-arrow-right ml-3"></i>
             </a>
         </div>
     </div>
 </section>
 
 <!-- Shop Section -->
-<section id="shop" class="py-20 bg-gray-50">
-    <div class="container mx-auto px-4" data-aos="fade-right">
-        <div class="text-center mb-16">
-            <span class="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-4">
-                Our Shop
-            </span>
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+<section id="shop" class="py-24 bg-gradient-to-br from-gray-50 to-gray-100 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-5">
+        <div class="absolute top-10 left-10 w-32 h-32 bg-blue-600 rounded-full"></div>
+        <div class="absolute bottom-10 right-10 w-24 h-24 bg-purple-600 rounded-full"></div>
+        <div class="absolute top-1/2 left-1/3 w-16 h-16 bg-pink-600 rounded-full"></div>
+    </div>
+    <div class="container mx-auto px-4 relative z-10" data-aos="fade-right">
+        <div class="text-center mb-20">
+            <div class="inline-block">
+                <span class="inline-block px-6 py-3 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 rounded-full text-sm font-bold mb-6 floating-animation">
+                    <i class="fas fa-store mr-2"></i>
+                    Our Shop
+                </span>
+            </div>
+            <h2 class="text-5xl md:text-6xl font-black text-gray-900 mb-6 leading-tight">
                 Robotics 
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 pulse-animation">
                     Store
                 </span>
             </h2>
-            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                Explore our wide range of robotics components and learning kits designed to empower you in the world of robotics.
+            <p class="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Explore our wide range of robotics components and learning kits designed to empower you in the fascinating world of robotics and automation.
             </p>
         </div>
         
-        @if($products && $products->count() > 0)
-        <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
-            @foreach($products->take(4) as $product)
-            <!-- Product Item {{ $loop->iteration }} -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div class="relative overflow-hidden bg-gradient-to-br from-blue-50 to-blue-100 p-6">
-                    <img src="{{ $product->foto_product ? asset('storage/' . $product->foto_product) : asset('assets/images/choose-image.png') }}" 
-                         alt="{{ $product->title }}" 
-                         class="w-full h-32 object-contain">
-                </div>
-                <div class="p-6 text-center">
-                    <h4 class="text-xl font-bold text-gray-900 mb-2">{{ $product->title }}</h4>
-                    <p class="text-2xl font-bold text-blue-600 mb-4">Rp.{{ number_format($product->price, 2) }}</p>
-                    <a href="{{ route('shop.show', $product->slug) }}" class="w-full inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-300">
-                        View Details
-                    </a>
-                </div>
+        <!-- Products Swiper -->
+        <div class="swiper products-swiper mb-16">
+            <div class="swiper-wrapper mb-2">
+                <!-- Dynamic Product Cards -->
+                @if($products && $products->count() > 0)
+                    @foreach($products as $product)
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-3xl shadow-lg overflow-hidden card-hover group">
+                            <div class="relative overflow-hidden bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 p-8">
+                                <img src="{{ $product->foto_product ? asset('storage/' . $product->foto_product) : asset('assets/images/choose-image.png') }}" 
+                                     alt="{{ $product->title }}" 
+                                     class="w-full h-48 object-contain transition-transform duration-500 group-hover:scale-110 floating-animation">
+                                <div class="absolute top-4 right-4">
+                                    <div class="bg-white/80 backdrop-blur-sm rounded-full p-2">
+                                        <i class="fas fa-robot text-blue-600 text-lg"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-8 text-center">
+                                <h4 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">{{ $product->title }}</h4>
+                                <p class="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-6">
+                                    Rp.{{ number_format($product->price, 2) }}
+                                </p>
+                                <a href="{{ route('shop.show', $product->slug) }}" class="w-full inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                                    <i class="fas fa-shopping-cart mr-2"></i>
+                                    <span>View Details</span>
+                                    <i class="fas fa-arrow-right ml-2 transition-transform duration-300 group-hover:translate-x-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+                @else
+                    <div class="swiper-slide">
+                        <div class="text-center py-20 bg-white rounded-3xl shadow-lg">
+                            <div class="text-gray-400 mb-6 floating-animation">
+                                <i class="fas fa-shopping-cart text-8xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-600 mb-4">No Products Available</h3>
+                            <p class="text-gray-500 text-lg">Products will appear here once they are added by the admin.</p>
+                        </div>
+                    </div>
+                @endif
             </div>
-            @endforeach
+            <div class="swiper-pagination mt-12"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
-        @else
-        <div class="text-center py-12">
-            <div class="text-gray-400 mb-4">
-                <i class="fas fa-shopping-cart text-6xl"></i>
-            </div>
-            <h3 class="text-xl font-semibold text-gray-600 mb-2">No Products Available</h3>
-            <p class="text-gray-500">Products will appear here once they are added by the admin.</p>
-        </div>
-        @endif
         
-        <div class="text-center mt-12">
-            <a href="{{ route('shop.index') }}" class="inline-flex items-center justify-center px-8 py-4 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
+        <div class="text-center">
+            <a href="{{ route('shop.index') }}" class="inline-flex items-center justify-center px-12 py-5 border-3 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-bold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-lg">
+                <i class="fas fa-store mr-3"></i>
                 View All Products
-                <i class="fas fa-arrow-right ml-2"></i>
+                <i class="fas fa-arrow-right ml-3"></i>
             </a>
         </div>
     </div>
 </section>
 
 <!-- News Section -->
-<section id="news" class="py-20 bg-white">
-   <div class="container mx-auto px-4" data-aos="fade-up">
-        <div class="text-center mb-16">
-            <span class="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-4">
-                Latest News
-            </span>
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+<section id="news" class="py-24 bg-white relative overflow-hidden">
+    <div class="absolute inset-0 gradient-overlay"></div>
+    <div class="container mx-auto px-4 relative z-10" data-aos="fade-up">
+        <div class="text-center mb-20">
+            <div class="inline-block">
+                <span class="inline-block px-6 py-3 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 rounded-full text-sm font-bold mb-6 floating-animation">
+                    <i class="fas fa-newspaper mr-2"></i>
+                    Latest News
+                </span>
+            </div>
+            <h2 class="text-5xl md:text-6xl font-black text-gray-900 mb-6 leading-tight">
                 Stay Updated with Our 
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 pulse-animation">
                     Latest News
                 </span>
             </h2>
-            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                Discover the latest developments in robotics, Industry 5.0 innovations, and updates from our sustainable learning platform.
+            <p class="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Discover the latest developments in robotics, Industry 5.0 innovations, and updates from our sustainable learning platform and community.
             </p>
         </div>
         
-        @if($news && $news->count() > 0)
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mb-12">
-            @foreach($news->take(3) as $article)
-            <!-- News Article {{ $loop->iteration }} -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div class="relative overflow-hidden">
-                    <img src="{{ $article->thumbnail ? asset('storage/' . $article->thumbnail) : asset('assets/images/news-default.jpg') }}" 
-                         class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" 
-                         alt="{{ $article->title }}">
-                    <div class="absolute top-4 left-4">
-                        <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                            {{ $article->kategory ?? 'News' }}
-                        </span>
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <div class="p-6">
-                    <div class="flex items-center text-sm text-gray-500 mb-3">
-                        <i class="fas fa-calendar-alt mr-2"></i>
-                        <span>{{ \Carbon\Carbon::parse($article->tanggal)->format('M d, Y') }}</span>
-                        <span class="mx-2">•</span>
-                        <i class="fas fa-user mr-2"></i>
-                        <span>{{ $article->ditulis_oleh ?? 'Admin' }}</span>
-                    </div>
-                    <h5 class="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-300">
-                        <a href="{{ route('news.show', $article->slug) }}">{{ $article->title }}</a>
-                    </h5>
-                    <p class="text-gray-600 mb-4 line-clamp-3">
-{!! Str::limit($article->description, 120) !!}
+        <!-- News Swiper -->
+        <div class="swiper news-swiper mb-16">
+            <div class="swiper-wrapper mb-2">
+                <!-- Dynamic News Cards -->
+                @if($news && $news->count() > 0)
+                    @foreach($news as $article)
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-3xl shadow-lg overflow-hidden card-hover group">
+                            <div class="relative overflow-hidden">
+                                <img src="{{ $article->thumbnail ? asset('storage/' . $article->thumbnail) : asset('assets/images/news-default.jpg') }}" 
+                                     class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110" 
+                                     alt="{{ $article->title }}">
+                                <div class="absolute top-4 left-4">
+                                    <span class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-bold">
+                                        <i class="fas fa-tag mr-1"></i>
+                                        {{ $article->kategory ?? 'News' }}
+                                    </span>
+                                </div>
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
 
-                    </p>
-                    <a href="{{ route('news.show', $article->slug) }}" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
-                        Read More
-                        <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
+                            </div>
+                            <div class="p-8">
+                                <div class="flex items-center text-sm text-gray-500 mb-4">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-calendar-alt mr-2 text-blue-600"></i>
+                                        <span class="font-semibold">{{ \Carbon\Carbon::parse($article->tanggal)->format('M d, Y') }}</span>
+                                    </div>
+                                    <span class="mx-3 text-gray-300">•</span>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-user mr-2 text-purple-600"></i>
+                                        <span class="font-semibold">{{ $article->ditulis_oleh ?? 'Admin' }}</span>
+                                    </div>
+                                </div>
+                                <h5 class="text-2xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors duration-300 leading-tight">
+                                    <a href="{{ route('news.show', $article->slug) }}">{{ $article->title }}</a>
+                                </h5>
+                                <p class="text-gray-600 mb-6 line-clamp-3 leading-relaxed">
+                                    {!! Str::limit($article->description, 150) !!}
+                                </p>
+                                <a href="{{ route('news.show', $article->slug) }}" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-bold transition-all duration-300 transform hover:scale-105">
+                                    <span>Read More</span>
+                                    <i class="fas fa-arrow-right ml-2 transition-transform duration-300 group-hover:translate-x-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+                @else
+                    <div class="swiper-slide">
+                        <div class="text-center py-20 bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl">
+                            <div class="text-gray-400 mb-6 floating-animation">
+                                <i class="fas fa-newspaper text-8xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-600 mb-4">No News Available</h3>
+                            <p class="text-gray-500 text-lg">News articles will appear here once they are added by the admin.</p>
+                        </div>
+                    </div>
+                @endif
             </div>
-            @endforeach
+            <div class="swiper-pagination mt-12"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
-        @else
-        <div class="text-center py-12">
-            <div class="text-gray-400 mb-4">
-                <i class="fas fa-newspaper text-6xl"></i>
-            </div>
-            <h3 class="text-xl font-semibold text-gray-600 mb-2">No News Available</h3>
-            <p class="text-gray-500">News articles will appear here once they are added by the admin.</p>
-        </div>
-        @endif
         
         <div class="text-center">
-            <a href="{{ route('news.index') }}" class="inline-flex items-center justify-center px-8 py-4 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
+            <a href="{{ route('news.index') }}" class="inline-flex items-center justify-center px-12 py-5 border-3 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-bold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-lg">
+                <i class="fas fa-newspaper mr-3"></i>
                 View All News
-                <i class="fas fa-arrow-right ml-2"></i>
+                <i class="fas fa-arrow-right ml-3"></i>
             </a>
         </div>
     </div>
 </section>
 
-<!-- Contact Us Section -->
-<section id="contact" class="py-20 bg-white">
-    <div class="container mx-auto px-4" data-aos="fade-right">
-        <div class="text-center mb-16">
-            <span class="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-4">
-                Contact Us
-            </span>
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                Get In 
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-                    Touch
-                </span>
-            </h2>
-            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                We would love to hear from you! If you have any questions, concerns, or feedback, feel free to reach out to us.
-            </p>
-        </div>
-        
-        <div class="grid lg:grid-cols-2 gap-12">
-            <!-- Contact Information -->
-            <div class="space-y-8">
-                <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl">
-                    <h4 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-                        <i class="fas fa-map-marker-alt text-blue-600 mr-3"></i>
-                        Our Location
-                    </h4>
-                    <p class="text-gray-700 mb-6 flex items-start">
-                        <i class="fas fa-location-dot text-blue-600 mr-3 mt-1"></i>
-                        Daratan, RT 02/RW 06, Tohudan, Colomadu, Karanganyar
-                    </p>
-                    
-                    <h4 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
-                        <i class="fas fa-phone text-blue-600 mr-3"></i>
-                        Contact Details
-                    </h4>
-                    <div class="space-y-3 mb-6">
-                        <p class="flex items-center text-gray-700">
-                            <i class="fas fa-phone-alt text-blue-600 mr-3"></i>
-                            <a href="tel:+62895802850204" class="hover:text-blue-600 transition-colors duration-300">+62 895-8028-50204</a>
-                        </p>
-                        <p class="flex items-center text-gray-700">
-                            <i class="fas fa-envelope text-blue-600 mr-3"></i>
-                            <a href="mailto:admin@rosus.my.id" class="hover:text-blue-600 transition-colors duration-300">admin@rosus.my.id</a>
-                        </p>
-                    </div>
-                    
-                    <h4 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
-                        <i class="fas fa-clock text-blue-600 mr-3"></i>
-                        Business Hours
-                    </h4>
-                    <p class="text-gray-700">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                </div>
-            </div>
-            
-            <!-- Contact Form -->
-            <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                <h4 class="text-2xl font-bold text-gray-900 mb-6">Send Us a Message</h4>
-                <form id="contact-form" method="POST" action="contact-form.php" class="space-y-6">
-                    <div class="space-y-2">
-                        <label class="block text-sm font-semibold text-gray-700">Your Name</label>
-                        <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300" placeholder="Enter your name" name="name" required>
-                    </div>
-                    
-                    <div class="space-y-2">
-                        <label class="block text-sm font-semibold text-gray-700">Your Email</label>
-                        <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300" placeholder="Enter your email" name="email" required>
-                    </div>
-                    
-                    <div class="space-y-2">
-                        <label class="block text-sm font-semibold text-gray-700">Phone Number</label>
-                        <input type="tel" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300" placeholder="Enter your phone number" name="phone" required>
-                    </div>
-                    
-                    <div class="space-y-2">
-                        <label class="block text-sm font-semibold text-gray-700">Your Message</label>
-                        <textarea class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 resize-none" placeholder="Enter your message" name="message" rows="4" required></textarea>
-                    </div>
-                    
-                    <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                        Send Message
-                        <i class="fas fa-paper-plane ml-2"></i>
-                    </button>
-                </form>
-            </div>
-        </div>
+<section id="contact" class="py-24 bg-gradient-to-br from-white via-blue-50 to-purple-50">
+  <div class="container mx-auto px-4" data-aos="fade-right">
+    <!-- Header -->
+    <div class="text-center mb-20">
+      <span class="inline-block px-5 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold tracking-wide mb-4">
+        ✨ Contact Us
+      </span>
+      <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
+        Let’s Get 
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+          In Touch
+        </span>
+      </h2>
+      <p class="text-lg text-gray-600 max-w-xl mx-auto leading-relaxed">
+        Have a question, suggestion, or just want to say hi? We’d love to hear from you. Our team is always ready to help!
+      </p>
     </div>
+
+    <div class="grid lg:grid-cols-2 gap-12">
+      <!-- Contact Info Card -->
+      <div class="space-y-10">
+        <div class="bg-white p-8 shadow-xl rounded-3xl border border-blue-100 hover:shadow-2xl transition-shadow duration-500">
+          <div class="space-y-6">
+            <!-- Location -->
+            <div class="flex items-start">
+              <div class="text-blue-600 text-2xl mr-4">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-800 text-xl mb-1">Our Location</h4>
+                <p class="text-gray-600">Daratan, RT 02/RW 06, Tohudan, Colomadu, Karanganyar</p>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="flex items-start">
+              <div class="text-blue-600 text-2xl mr-4">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-800 text-xl mb-1">Call Us</h4>
+                <p><a href="tel:+62895802850204" class="text-blue-600 hover:underline">+62 895-8028-50204</a></p>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="flex items-start">
+              <div class="text-blue-600 text-2xl mr-4">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-800 text-xl mb-1">Email Us</h4>
+                <p><a href="mailto:admin@rosus.my.id" class="text-blue-600 hover:underline">admin@rosus.my.id</a></p>
+              </div>
+            </div>
+
+            <!-- Hours -->
+            <div class="flex items-start">
+              <div class="text-blue-600 text-2xl mr-4">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-800 text-xl mb-1">Working Hours</h4>
+                <p class="text-gray-600">Mon – Fri: 9 AM – 6 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="bg-white p-10 rounded-3xl shadow-xl border border-gray-100">
+        <h4 class="text-2xl font-bold text-gray-900 mb-8">📬 Drop Us a Message</h4>
+        <form id="contact-form" method="POST" action="contact-form.php" class="space-y-6">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+            <input type="text" name="name" placeholder="John Doe" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none transition duration-300" />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Your Email</label>
+            <input type="email" name="email" placeholder="you@example.com" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none transition duration-300" />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+            <input type="tel" name="phone" placeholder="+62 8xx" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none transition duration-300" />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Your Message</label>
+            <textarea name="message" rows="5" placeholder="Write your message here..." required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none transition duration-300 resize-none"></textarea>
+          </div>
+
+          <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-md">
+            Send Message <i class="fas fa-paper-plane ml-2"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
 </section>
+
 
 
 @endsection
