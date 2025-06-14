@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Hero Section -->
-<section class="relative min-h-screen flex items-center bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 overflow-hidden">
+<section id="beranda" class="relative min-h-screen flex items-center bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 overflow-hidden">
     <!-- Background Pattern -->
     <div class="absolute inset-0 opacity-10">
         <div class="absolute top-0 left-0 w-72 h-72 bg-white rounded-full -translate-x-1/2 -translate-y-1/2"></div>
@@ -59,7 +59,7 @@
 </section>
 
 <!-- About Section -->
-<section class="py-20 bg-white relative overflow-hidden">
+<section id="about" class="py-20 bg-white relative overflow-hidden">
     <!-- Background Pattern -->
     <div class="absolute inset-0 opacity-5">
         <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-500 rounded-full"></div>
@@ -155,32 +155,68 @@
     </div>
 </section>
 
-<!-- Stats Section -->
-<section class="py-16 bg-gradient-to-r from-blue-900 to-indigo-900">
-    <div class="container mx-auto px-4">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8" data-aos="fade-up">
-            <div class="text-center">
-                <div class="text-4xl font-bold text-white mb-2">500+</div>
-                <div class="text-blue-200">Students Trained</div>
-            </div>
-            <div class="text-center">
-                <div class="text-4xl font-bold text-white mb-2">50+</div>
-                <div class="text-blue-200">Robot Projects</div>
-            </div>
-            <div class="text-center">
-                <div class="text-4xl font-bold text-white mb-2">95%</div>
-                <div class="text-blue-200">Recycled Materials</div>
-            </div>
-            <div class="text-center">
-                <div class="text-4xl font-bold text-white mb-2">24/7</div>
-                <div class="text-blue-200">Support Available</div>
-            </div>
+<section id="stats" class="py-20 bg-gradient-to-r from-indigo-900 to-purple-900">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+
+      <!-- Card -->
+      <div class="group bg-gradient-to-br from-pink-500 to-red-400 text-white rounded-2xl p-6 text-center shadow-xl transform transition-all duration-500 hover:scale-105 animate-fade-in">
+        <div class="flex justify-center mb-3">
+          <svg class="w-10 h-10 text-white drop-shadow" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 14l9-5-9-5-9 5 9 5zm0 0v6m-4-3h8" />
+          </svg>
         </div>
+        <div class="text-4xl font-extrabold drop-shadow mb-1 group-hover:scale-110 transition-transform duration-300">500+</div>
+        <div class="text-white/90 font-medium tracking-wide">Students Trained</div>
+      </div>
+
+      <!-- Card -->
+      <div class="group bg-gradient-to-br from-cyan-500 to-blue-500 text-white rounded-2xl p-6 text-center shadow-xl transform transition-all duration-500 hover:scale-105 animate-fade-in delay-100">
+        <div class="flex justify-center mb-3">
+          <svg class="w-10 h-10 text-white drop-shadow" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M9 12h6m-3-3v6m-7 4h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+        </div>
+        <div class="text-4xl font-extrabold drop-shadow mb-1 group-hover:scale-110 transition-transform duration-300">50+</div>
+        <div class="text-white/90 font-medium tracking-wide">Robot Projects</div>
+      </div>
+
+      <!-- Card -->
+      <div class="group bg-gradient-to-br from-green-400 to-emerald-500 text-white rounded-2xl p-6 text-center shadow-xl transform transition-all duration-500 hover:scale-105 animate-fade-in delay-200">
+        <div class="flex justify-center mb-3">
+          <svg class="w-10 h-10 text-white drop-shadow" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M4 4v5h.582a10 10 0 0114.3-4.419L20 5m0 0v5h-5m5-5l-7 7m-1 4a4 4 0 01-4-4H4a6 6 0 006 6v1l3-3-3-3v1z" />
+          </svg>
+        </div>
+        <div class="text-4xl font-extrabold drop-shadow mb-1 group-hover:scale-110 transition-transform duration-300">95%</div>
+        <div class="text-white/90 font-medium tracking-wide">Recycled Materials</div>
+      </div>
+
+      <!-- Card -->
+      <div class="group bg-gradient-to-br from-yellow-400 to-orange-500 text-white rounded-2xl p-6 text-center shadow-xl transform transition-all duration-500 hover:scale-105 animate-fade-in delay-300">
+        <div class="flex justify-center mb-3">
+          <svg class="w-10 h-10 text-white drop-shadow" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M17 20h5v-2a4 4 0 00-5-4M9 20H4v-2a4 4 0 015-4m1-4a4 4 0 100-8 4 4 0 000 8zm6 4a4 4 0 100-8 4 4 0 000 8z" />
+          </svg>
+        </div>
+        <div class="text-4xl font-extrabold drop-shadow mb-1 group-hover:scale-110 transition-transform duration-300">30+</div>
+        <div class="text-white/90 font-medium tracking-wide">Active Communities</div>
+      </div>
+
     </div>
+  </div>
 </section>
 
 <!-- Services Section -->
-<section class="py-20 bg-gray-50 relative overflow-hidden">
+<section id="services" class="py-20 bg-gray-50 relative overflow-hidden">
     <div class="container mx-auto px-4" data-aos="fade-right">
         
         <div class="grid lg:grid-cols-2 gap-16 items-center relative z-10">
@@ -276,7 +312,7 @@
 </section>
 
 <!-- Projects Section -->
-<section class="py-20 bg-white">
+<section id="projects" class="py-20 bg-white">
     <div class="container mx-auto px-4" data-aos="fade-right">
         <div class="text-center mb-16">
             <span class="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-4">
@@ -293,55 +329,39 @@
             </p>
         </div>
         
+        @if($projects && $projects->count() > 0)
         <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mb-12">
-            <!-- Project 1 -->
+            @foreach($projects->take(3) as $project)
+            <!-- Project {{ $loop->iteration }} -->
             <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                 <div class="relative overflow-hidden">
-                    <img src="assets/images/banner-image.png" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="Project 1">
+                    <img src="{{ $project->thumbnail ? asset('storage/' . $project->thumbnail) : asset('assets/images/banner-image.png') }}" 
+                         class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" 
+                         alt="{{ $project->title }}">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
                 <div class="p-6">
-                    <h5 class="text-xl font-bold text-gray-900 mb-2">Project Name 1</h5>
-                    <p class="text-gray-600 mb-4">Brief description of the project and its impact.</p>
-                    <a href="project-details.php?id=1" class="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-300">
+                    <h5 class="text-xl font-bold text-gray-900 mb-2">{{ $project->title }}</h5>
+                    <p class="text-gray-600 mb-4">{{ Str::limit($project->description, 100) }}</p>
+                    <a href="{{ route('projects.show', $project->slug) }}" class="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-300">
                         Read More
                     </a>
                 </div>
             </div>
-            
-            <!-- Project 2 -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div class="relative overflow-hidden">
-                    <img src="assets/images/banner-image.png" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="Project 2">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <div class="p-6">
-                    <h5 class="text-xl font-bold text-gray-900 mb-2">Project Name 2</h5>
-                    <p class="text-gray-600 mb-4">Brief description of the project and its impact.</p>
-                    <a href="project-details.php?id=2" class="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-300">
-                        Read More
-                    </a>
-                </div>
-            </div>
-            
-            <!-- Project 3 -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div class="relative overflow-hidden">
-                    <img src="assets/images/banner-image.png" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="Project 3">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <div class="p-6">
-                    <h5 class="text-xl font-bold text-gray-900 mb-2">Project Name 3</h5>
-                    <p class="text-gray-600 mb-4">Brief description of the project and its impact.</p>
-                    <a href="project-details.php?id=3" class="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-300">
-                        Read More
-                    </a>
-                </div>
-            </div>
+            @endforeach
         </div>
+        @else
+        <div class="text-center py-12">
+            <div class="text-gray-400 mb-4">
+                <i class="fas fa-project-diagram text-6xl"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-600 mb-2">No Projects Available</h3>
+            <p class="text-gray-500">Projects will appear here once they are added by the admin.</p>
+        </div>
+        @endif
         
         <div class="text-center">
-            <a href="projects.php" class="inline-flex items-center justify-center px-8 py-4 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
+            <a href="{{ route('projects.index') }}" class="inline-flex items-center justify-center px-8 py-4 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
                 View All Projects
                 <i class="fas fa-arrow-right ml-2"></i>
             </a>
@@ -350,7 +370,7 @@
 </section>
 
 <!-- Shop Section -->
-<section class="py-20 bg-gray-50">
+<section id="shop" class="py-20 bg-gray-50">
     <div class="container mx-auto px-4" data-aos="fade-right">
         <div class="text-center mb-16">
             <span class="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-4">
@@ -367,68 +387,48 @@
             </p>
         </div>
         
+        @if($products && $products->count() > 0)
         <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
-            <!-- Product Item 1 -->
+            @foreach($products->take(4) as $product)
+            <!-- Product Item {{ $loop->iteration }} -->
             <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                 <div class="relative overflow-hidden bg-gradient-to-br from-blue-50 to-blue-100 p-6">
-                    <img src="assets/images/choose-image.png" alt="Product 1" class="w-full h-32 object-contain">
+                    <img src="{{ $product->foto_product ? asset('storage/' . $product->foto_product) : asset('assets/images/choose-image.png') }}" 
+                         alt="{{ $product->title }}" 
+                         class="w-full h-32 object-contain">
                 </div>
                 <div class="p-6 text-center">
-                    <h4 class="text-xl font-bold text-gray-900 mb-2">Robotic Learning Kit</h4>
-                    <p class="text-2xl font-bold text-blue-600 mb-4">$299.99</p>
-                    <a href="product-detail.php?id=1" class="w-full inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-300">
+                    <h4 class="text-xl font-bold text-gray-900 mb-2">{{ $product->title }}</h4>
+                    <p class="text-2xl font-bold text-blue-600 mb-4">Rp.{{ number_format($product->price, 2) }}</p>
+                    <a href="{{ route('shop.show', $product->slug) }}" class="w-full inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-300">
                         View Details
                     </a>
                 </div>
             </div>
-            
-            <!-- Product Item 2 -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div class="relative overflow-hidden bg-gradient-to-br from-green-50 to-green-100 p-6">
-                    <img src="assets/images/choose-image.png" alt="Product 2" class="w-full h-32 object-contain">
-                </div>
-                <div class="p-6 text-center">
-                    <h4 class="text-xl font-bold text-gray-900 mb-2">Robot Arm Kit</h4>
-                    <p class="text-2xl font-bold text-blue-600 mb-4">$179.99</p>
-                    <a href="product-detail.php?id=2" class="w-full inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-300">
-                        View Details
-                    </a>
-                </div>
+            @endforeach
+        </div>
+        @else
+        <div class="text-center py-12">
+            <div class="text-gray-400 mb-4">
+                <i class="fas fa-shopping-cart text-6xl"></i>
             </div>
-            
-            <!-- Product Item 3 -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div class="relative overflow-hidden bg-gradient-to-br from-orange-50 to-orange-100 p-6">
-                    <img src="assets/images/choose-image.png" alt="Product 3" class="w-full h-32 object-contain">
-                </div>
-                <div class="p-6 text-center">
-                    <h4 class="text-xl font-bold text-gray-900 mb-2">Green Robot Component</h4>
-                    <p class="text-2xl font-bold text-blue-600 mb-4">$99.99</p>
-                    <a href="product-detail.php?id=3" class="w-full inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-300">
-                        View Details
-                    </a>
-                </div>
-            </div>
-            
-            <!-- Product Item 4 -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div class="relative overflow-hidden bg-gradient-to-br from-purple-50 to-purple-100 p-6">
-                    <img src="assets/images/choose-image.png" alt="Product 4" class="w-full h-32 object-contain">
-                </div>
-                <div class="p-6 text-center">
-                    <h4 class="text-xl font-bold text-gray-900 mb-2">Solar Powered Kit</h4>
-                    <p class="text-2xl font-bold text-blue-600 mb-4">$249.99</p>
-                    <a href="product-detail.php?id=4" class="w-full inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-300">
-                        View Details
-                    </a>
-                </div>
-            </div>
+            <h3 class="text-xl font-semibold text-gray-600 mb-2">No Products Available</h3>
+            <p class="text-gray-500">Products will appear here once they are added by the admin.</p>
+        </div>
+        @endif
+        
+        <div class="text-center mt-12">
+            <a href="{{ route('shop.index') }}" class="inline-flex items-center justify-center px-8 py-4 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
+                View All Products
+                <i class="fas fa-arrow-right ml-2"></i>
+            </a>
         </div>
     </div>
 </section>
+
 <!-- News Section -->
-<section class="py-20 bg-white">
-    <div class="container mx-auto px-4" data-aos="fade-up">
+<section id="news" class="py-20 bg-white">
+   <div class="container mx-auto px-4" data-aos="fade-up">
         <div class="text-center mb-16">
             <span class="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-4">
                 Latest News
@@ -444,14 +444,18 @@
             </p>
         </div>
         
+        @if($news && $news->count() > 0)
         <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mb-12">
-            <!-- News Article 1 -->
+            @foreach($news->take(3) as $article)
+            <!-- News Article {{ $loop->iteration }} -->
             <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                 <div class="relative overflow-hidden">
-                    <img src="assets/images/news-1.jpg" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="Industry 5.0 Revolution">
+                    <img src="{{ $article->thumbnail ? asset('storage/' . $article->thumbnail) : asset('assets/images/news-default.jpg') }}" 
+                         class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" 
+                         alt="{{ $article->title }}">
                     <div class="absolute top-4 left-4">
                         <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                            Industry 5.0
+                            {{ $article->kategory ?? 'News' }}
                         </span>
                     </div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
@@ -459,187 +463,38 @@
                 <div class="p-6">
                     <div class="flex items-center text-sm text-gray-500 mb-3">
                         <i class="fas fa-calendar-alt mr-2"></i>
-                        <span>June 5, 2025</span>
+                        <span>{{ \Carbon\Carbon::parse($article->tanggal)->format('M d, Y') }}</span>
                         <span class="mx-2">•</span>
                         <i class="fas fa-user mr-2"></i>
-                        <span>Admin</span>
+                        <span>{{ $article->ditulis_oleh ?? 'Admin' }}</span>
                     </div>
                     <h5 class="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-300">
-                        <a href="news-detail.php?id=1">The Future of Industry 5.0: Human-Robot Collaboration</a>
+                        <a href="{{ route('news.show', $article->slug) }}">{{ $article->title }}</a>
                     </h5>
                     <p class="text-gray-600 mb-4 line-clamp-3">
-                        Explore how Industry 5.0 is revolutionizing manufacturing by combining human creativity with robotic precision, creating a sustainable and efficient future...
+{!! Str::limit($article->description, 120) !!}
+
                     </p>
-                    <a href="news-detail.php?id=1" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
+                    <a href="{{ route('news.show', $article->slug) }}" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
                         Read More
                         <i class="fas fa-arrow-right ml-2"></i>
                     </a>
                 </div>
             </div>
-            
-            <!-- News Article 2 -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div class="relative overflow-hidden">
-                    <img src="assets/images/news-2.jpg" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="Sustainable Robotics">
-                    <div class="absolute top-4 left-4">
-                        <span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                            Sustainability
-                        </span>
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <div class="p-6">
-                    <div class="flex items-center text-sm text-gray-500 mb-3">
-                        <i class="fas fa-calendar-alt mr-2"></i>
-                        <span>June 3, 2025</span>
-                        <span class="mx-2">•</span>
-                        <i class="fas fa-user mr-2"></i>
-                        <span>Research Team</span>
-                    </div>
-                    <h5 class="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-300">
-                        <a href="news-detail.php?id=2">Breakthrough in Recycled Materials for Robot Manufacturing</a>
-                    </h5>
-                    <p class="text-gray-600 mb-4 line-clamp-3">
-                        Our latest research shows a 95% efficiency rate in using recycled materials for robot components, paving the way for sustainable robotics education...
-                    </p>
-                    <a href="news-detail.php?id=2" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
-                        Read More
-                        <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-            </div>
-            
-            <!-- News Article 3 -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div class="relative overflow-hidden">
-                    <img src="assets/images/news-3.jpg" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="AI Education">
-                    <div class="absolute top-4 left-4">
-                        <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                            Education
-                        </span>
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <div class="p-6">
-                    <div class="flex items-center text-sm text-gray-500 mb-3">
-                        <i class="fas fa-calendar-alt mr-2"></i>
-                        <span>May 30, 2025</span>
-                        <span class="mx-2">•</span>
-                        <i class="fas fa-user mr-2"></i>
-                        <span>Education Team</span>
-                    </div>
-                    <h5 class="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-300">
-                        <a href="news-detail.php?id=3">New AI-Powered Learning Platform Launches Successfully</a>
-                    </h5>
-                    <p class="text-gray-600 mb-4 line-clamp-3">
-                        Our revolutionary AI-powered robotics learning platform has successfully trained over 500 students, with 98% satisfaction rate and improved learning outcomes...
-                    </p>
-                    <a href="news-detail.php?id=3" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
-                        Read More
-                        <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-            </div>
-            
-            <!-- News Article 4 -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div class="relative overflow-hidden">
-                    <img src="assets/images/news-4.jpg" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="Robot Competition">
-                    <div class="absolute top-4 left-4">
-                        <span class="bg-orange-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                            Competition
-                        </span>
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <div class="p-6">
-                    <div class="flex items-center text-sm text-gray-500 mb-3">
-                        <i class="fas fa-calendar-alt mr-2"></i>
-                        <span>May 28, 2025</span>
-                        <span class="mx-2">•</span>
-                        <i class="fas fa-user mr-2"></i>
-                        <span>Event Team</span>
-                    </div>
-                    <h5 class="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-300">
-                        <a href="news-detail.php?id=4">Students Win National Robotics Competition with Eco-Friendly Design</a>
-                    </h5>
-                    <p class="text-gray-600 mb-4 line-clamp-3">
-                        Our students secured first place in the National Robotics Championship using 100% recycled materials, showcasing the power of sustainable innovation...
-                    </p>
-                    <a href="news-detail.php?id=4" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
-                        Read More
-                        <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-            </div>
-            
-            <!-- News Article 5 -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div class="relative overflow-hidden">
-                    <img src="assets/images/news-5.jpg" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="Partnership News">
-                    <div class="absolute top-4 left-4">
-                        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                            Partnership
-                        </span>
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <div class="p-6">
-                    <div class="flex items-center text-sm text-gray-500 mb-3">
-                        <i class="fas fa-calendar-alt mr-2"></i>
-                        <span>May 25, 2025</span>
-                        <span class="mx-2">•</span>
-                        <i class="fas fa-user mr-2"></i>
-                        <span>Partnership Team</span>
-                    </div>
-                    <h5 class="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-300">
-                        <a href="news-detail.php?id=5">Strategic Partnership with Leading Tech Universities Announced</a>
-                    </h5>
-                    <p class="text-gray-600 mb-4 line-clamp-3">
-                        We're excited to announce partnerships with top technology universities to expand our robotics curriculum and provide students with world-class education...
-                    </p>
-                    <a href="news-detail.php?id=5" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
-                        Read More
-                        <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-            </div>
-            
-            <!-- News Article 6 -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div class="relative overflow-hidden">
-                    <img src="assets/images/news-6.jpg" class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110" alt="Workshop News">
-                    <div class="absolute top-4 left-4">
-                        <span class="bg-teal-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                            Workshop
-                        </span>
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <div class="p-6">
-                    <div class="flex items-center text-sm text-gray-500 mb-3">
-                        <i class="fas fa-calendar-alt mr-2"></i>
-                        <span>May 22, 2025</span>
-                        <span class="mx-2">•</span>
-                        <i class="fas fa-user mr-2"></i>
-                        <span>Workshop Team</span>
-                    </div>
-                    <h5 class="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-300">
-                        <a href="news-detail.php?id=6">Free Robotics Workshop Series for Beginners Starts Next Month</a>
-                    </h5>
-                    <p class="text-gray-600 mb-4 line-clamp-3">
-                        Join our comprehensive robotics workshop series designed for beginners. Learn the fundamentals of robotics using sustainable materials and cutting-edge technology...
-                    </p>
-                    <a href="news-detail.php?id=6" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
-                        Read More
-                        <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-            </div>
+            @endforeach
         </div>
+        @else
+        <div class="text-center py-12">
+            <div class="text-gray-400 mb-4">
+                <i class="fas fa-newspaper text-6xl"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-600 mb-2">No News Available</h3>
+            <p class="text-gray-500">News articles will appear here once they are added by the admin.</p>
+        </div>
+        @endif
         
         <div class="text-center">
-            <a href="news.php" class="inline-flex items-center justify-center px-8 py-4 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
+            <a href="{{ route('news.index') }}" class="inline-flex items-center justify-center px-8 py-4 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
                 View All News
                 <i class="fas fa-arrow-right ml-2"></i>
             </a>
@@ -648,7 +503,7 @@
 </section>
 
 <!-- Contact Us Section -->
-<section class="py-20 bg-white">
+<section id="contact" class="py-20 bg-white">
     <div class="container mx-auto px-4" data-aos="fade-right">
         <div class="text-center mb-16">
             <span class="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-4">
